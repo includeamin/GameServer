@@ -81,6 +81,7 @@ namespace Client
             connection.Clinet.Publish("Register", bytes, MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, false);
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
+            
            
            
             //Parallel.For(0, 10000, i =>
